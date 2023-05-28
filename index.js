@@ -13,7 +13,7 @@ const cron = require('node-cron')
 const exec = require('await-exec')
 
 const start = (bocchi = new Client()) => {
-    console.log(color(figlet.textSync('BocchiBot', 'Larry 3D'), 'cyan'))
+    console.log(color(figlet.textSync('ZurrBotch', 'Larry 3D'), 'cyan'))
     console.log(color('=> Bot successfully loaded! Database:', 'yellow'), color(loader.getAllDirFiles('./database').length), color('Library:', 'yellow'), color(loader.getAllDirFiles('./lib').length), color('Function:', 'yellow'), color(loader.getAllDirFiles('./function').length))
     console.log(color('=> Source code version:', 'yellow'), color(version))
     console.log(color('=> Bug? Error? Suggestion? Visit here:', 'yellow'), color(bugs.url))
